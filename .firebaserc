@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "notoriousaccountingfirm": {
+      "hosting": {
+        "Accounting_Site": [
+          "notoriousaccountingfirm"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "notoriousaccountingfirm"
+  }
+}

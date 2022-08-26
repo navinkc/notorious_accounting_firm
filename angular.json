@@ -99,6 +99,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "Accounting_Site:build:production",
+            "firebaseProject": "notoriousaccountingfirm",
+            "firebaseHostingSite": "notoriousaccountingfirm"
+          }
         }
       }
     }
