@@ -1,0 +1,19 @@
+.contact
+{
+    padding: 10px 10px;
+}
+.info h2
+{
+    font-weight: bold;
+    color: var(--primary-color);
+    font-size: 25px;
+}
+.info span
+{
+    font-weight: bold;
+}
+.contact h1
+{
+    font-size: 30px;
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+.about
+{
+    padding: 10px 10px;
+}
+.title h1
+{
+    font-size: 30px;
+    text-align: center;
+}
+.image img
+{
+    padding: 20px 30px;
+}
+.info1
+{
+    color: var(--primary-color);
+    font-weight: bold;
+}

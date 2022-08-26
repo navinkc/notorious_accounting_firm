@@ -1,0 +1,50 @@
+.container
+{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.card img
+{
+    height: 200px;
+}
+.card
+{
+    background-color: black;
+    font-style: oblique;
+}
+.card:hover
+{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+.card-title
+{
+    color: var(--primary-color);
+}
+.card-text
+{
+    color: white;
+}
+.btn
+{
+    background-color: var(--secondary-color);
+    border-color: var(--primary-color);
+}
+.btn:hover
+{
+    background-color: var(--primary-color);
+}
+.services h1
+{
+    color: var(--primary-color);
+    padding: 5px 5px;
+    font-style: oblique;
+}
+.card span
+{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
