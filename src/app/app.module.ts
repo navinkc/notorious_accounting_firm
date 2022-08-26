@@ -10,6 +10,7 @@ import { AboutComponent } from './Pages/about/about.component';
 import { ContactComponent } from './Pages/contact/contact.component';
 import { OurservicesComponent } from './Pages/ourservices/ourservices.component';
 import { SubgstComponent } from './Pages/subgst/subgst.component';
+import { SearchPipe } from './Sharepage/search.pipe';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { SubgstComponent } from './Pages/subgst/subgst.component';
     ContactComponent,
     OurservicesComponent,
     SubgstComponent,
+    SearchPipe,
   ],
   imports: [
     BrowserModule,
